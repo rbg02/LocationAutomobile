@@ -1,0 +1,4 @@
+Chevrolet,Colorado,2016,100,2,True,1,4
+Chevrolet,Silverado,2020,234,5,False,0,2
+Chevrolet,Colorado,2015,343,2,False,1,4
+Chevrolet,Siverado,2014,123,5,True,2,2

@@ -1,0 +1,4 @@
+Toyota,Corola,2013,80,5,False,INTERMEDIAIRE,True
+Nissan,Almera,2014,95,5,True,PLEINE_GRANDEUR,True
+Toyota,Avensis,2009,60,5,False,ECONOMIQUE,True
+Audi,A8,2018,160,5,True,COMPACTE,True

@@ -1,0 +1,4 @@
+KIA,Sorento,2011,34,5,True,PREMIUM,False
+Nissan,Almera,2016,54,5,False,INTERMEDIAIRE,True
+Toyota,Avensis,2010,24,5,True,PLEINE_GRANDEUR,False
+KIA,Sportage,2009,56,5,False,STANDARD,True

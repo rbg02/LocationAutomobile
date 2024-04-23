@@ -1,0 +1,23 @@
+Les infos de la location
+Les infos de la voiture:
+'La marque' = 'Chevrolet', 'le modèle' = 'Colorado', 'l'année' = '2016', 'la disponibilité' = 'Oui', 'le nombre de passagers' = '2' est 'automatique' : 'oui' 'la taille' = 'normal' et est '4 roues motrices'
+Les infos du client:
+Le nom = 'Touman', le prénom = 'Koffi', le numéro de permis = '4738', l'adresse = '16 Rue AFG, Lomé-TOGO', et le téléphone = '1234000'
+Date de location: 654
+Coût total de la location: 400
+Les infos de la location
+Les infos de la voiture:
+'La marque' = 'Chevrolet', 'le modèle' = 'Colorado', 'l'année' = '2015', 'la disponibilité' = 'Non', 'le nombre de passagers' = '2' est 'automatique' : 'non' 'la taille' = 'normal' et est '4 roues motrices'
+Les infos du client:
+Le nom = 'Touman', le prénom = 'Koffi', le numéro de permis = '4738', l'adresse = '16 Rue AFG, Lomé-TOGO', et le téléphone = '1234000'
+Date de location: 564
+Coût total de la location: 1029
+Les infos de la location
+Les infos de la voiture:
+'La marque' = 'Chevrolet', 'le modèle' = 'Silverado', 'l'année' = '2020', 'la disponibilité' = 'Non', 'le nombre de passagers' = '5' est 'automatique' : 'non' 'la taille' = 'petit' et est '2 roues motrices'
+Les infos du client:
+Le nom = 'Mouani', le prénom = 'Fiin', le numéro de permis = '3490', l'adresse = '108 Av Khôm, Zooland-Youpi', et le téléphone = '1245550'
+Date de location: 543
+Coût total de la location: 468
+null
+null
