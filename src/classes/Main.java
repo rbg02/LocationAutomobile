@@ -15,8 +15,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int choix = 0;
         int nbreLocations = 0;
-        // Tableau des locations.
-        Location[] listeLocation = new Location[5];
+        // Liste des locations.
+        ArrayList<Location> listeLocation = new ArrayList<>();
 
         // 4 listes de 4 voitures chacun.
         //Ajout des Véhicules
@@ -253,7 +253,7 @@ public class Main {
                 }
                 System.out.print("Choisissez le numéro de la location que vous voulez rendre: ");
                 int locationARendre = sc.nextInt();
-                listeLocation[locationARendre].getVoiture().setDisponibilite(true);
+                listeLocation.get(locationARendre).getVoiture().setDisponibilite(true);
                 System.out.println("La voiture a été rendu !");
             }
         }
@@ -301,14 +301,14 @@ public class Main {
     }
 
     // Fonction qui ajoute une location.
-    static void ajouterLocation(Scanner sc, int nbreLocations, Location[] listeLocation, Voiture laVoiture, Client leClient) {
+    static void ajouterLocation(Scanner sc, int nbreLocations, ArrayList<Location> listeLocation, Voiture laVoiture, Client leClient) {
         System.out.print("Entrez la date de la location (DD-MM-YYYY): ");
         // Ceci est pour corriger l'exécution du sc.nextLine().
         sc.nextLine();
         String laDate = sc.nextLine();
         System.out.print("Entrez la durée de la location (En jours): ");
         int dureeLocation = sc.nextInt();
-        listeLocation[nbreLocations] = new Location(laVoiture, leClient , laDate, dureeLocation);
-        listeLocation[nbreLocations].getVoiture().changerDisponibilite();
+        listeLocation.add(new Location(laVoiture, leClient , laDate, dureeLocation));
+        listeLocation.get(nbreLocations).getVoiture().changerDisponibilite();
     }
 }
