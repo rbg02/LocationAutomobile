@@ -25,6 +25,6 @@ public class Commercial extends Client {
     @Override
     public String toString() {
         return super.toString() + " 'son numéro de compte = '" + getNumDeCompte() +
-                " 'de la compagnie: '" + getNomCompagnie() + " 'signé par: '" + getResponsable();
+                " 'de la compagnie: '" + getNomCompagnie() + " 'signé par: '" + getResponsable() + "\n";
     }
 }

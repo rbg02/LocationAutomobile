@@ -62,13 +62,13 @@ public class Location {
                 this.voiture + "\n" +
                 this.client + "\n" +
                 "Date de location: " + this.dateDeDebut + "\n" +
-                "Coût total de la location: " + this.afficherCout();
+                "Coût total de la location: " + this.afficherCout() + "\n";
     }
 
     // Autres méthodes pour setVoiture()
 //    public void setVoiture() {
 //        System.out.println("Veuiller sélectionner le numéro correspondant au type de voiture");
-//        System.out.println("1.classes.Voiture simple\n2.Véhicule\n3.classes.VUS\n4.Camion\n5.Fourgonnette");
+//        System.out.println("1.Voiture simple\n2.Véhicule\n3.VUS\n4.Camion\n5.Fourgonnette");
 //        System.out.print("Entrez votre choix: ");
 //        int choix = sc.nextInt();
 //        switch (choix) {
@@ -98,8 +98,8 @@ public class Location {
 //                break;
 //        }
 //    }
-//    // classes.Voiture simple
-//    private classes.Voiture setVoitureS() {
+//    // Voiture simple
+//    private Voiture setVoitureS() {
 //        System.out.println("Entrez les informations de la voiture");
 //        System.out.print("Entrez la marque: ");
 //        // Ceci est pour corriger l'exécution du sc.nextLine().
@@ -117,11 +117,11 @@ public class Location {
 //        int choix = sc.nextInt();
 //        boolean automatique;
 //        automatique = choix == 1;
-//        return new classes.Voiture(marque, modele, annee, cout, nbPass, automatique);
+//        return new Voiture(marque, modele, annee, cout, nbPass, automatique);
 //    }
 //    // Véhicule
-//    private classes.Vehicules setVehicule() {
-//        classes.Voiture laVoiture = setVoitureS();
+//    private Vehicules setVehicule() {
+//        Voiture laVoiture = setVoitureS();
 //        TypeVehicules[] listeType = TypeVehicules.values();
 //        System.out.println("Entrez le type de véhicule: ");
 //        for (TypeVehicules s :  listeType) {

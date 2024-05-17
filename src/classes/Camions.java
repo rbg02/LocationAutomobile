@@ -26,6 +26,6 @@ public class Camions extends Voiture{
 
     @Override
     public String toString() {
-        return super.toString() + " 'la taille' = '" + getTaille() + "' et est '" + getRouesMotrices() + " roues motrices'";
+        return super.toString() + " 'la taille' = '" + getTaille() + "' et est '" + getRouesMotrices() + " roues motrices'\n";
     }
 }

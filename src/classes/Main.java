@@ -125,7 +125,7 @@ public class Main {
 
             if (choix == 1) {
                 System.out.println("La liste de quel type de voiture voulez vous voir ?");
-                System.out.println("1.Véhicule\n2.classes.VUS\n3.Camion\n4.Fourgonnette");
+                System.out.println("1.Véhicule\n2.VUS\n3.Camion\n4.Fourgonnette");
                 System.out.print("Entrez votre choix: ");
                 int choixTypeVoiture = sc.nextInt();
                 if (choixTypeVoiture == 1) {

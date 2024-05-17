@@ -22,6 +22,6 @@ public class Fourgonnettes extends Voiture {
 
     @Override
     public String toString() {
-        return super.toString() + " 'le type' = '" + getType() + "'";
+        return super.toString() + " 'le type' = '" + getType() + "'\n";
     }
 }

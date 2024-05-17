@@ -29,6 +29,6 @@ public class Vehicules extends Voiture{
 
     @Override
     public String toString() {
-        return super.toString() + " 'le type = '" + getType() + " et 'est électrique': '" + getEssence() + "'";
+        return super.toString() + " 'le type = '" + getType() + " et 'est électrique': '" + getEssence() + "'\n";
     }
 }

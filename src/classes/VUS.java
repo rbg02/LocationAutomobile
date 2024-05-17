@@ -29,6 +29,6 @@ public class VUS extends Voiture {
 
     @Override
     public String toString() {
-        return super.toString() + " 'le type' = '" + getType() + "' et est 'intégrale': '" + getIntegrale() + "'";
+        return super.toString() + " 'le type' = '" + getType() + "' et est 'intégrale': '" + getIntegrale() + "'\n";
     }
 }
